@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+
+#Redirects all to /public
+RewriteEngine on
+RewriteRule (.*) /public/$1 [L]
